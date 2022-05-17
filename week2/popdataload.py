@@ -7,9 +7,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import warnings
 
 def load_data():
-    df = pd.read_excel("2020_인구조사.xlsx", engine = "openpyxl")
+    with warnings.catch_warnings(record=True):
+        warnings.simplefilter("always")
+        df = pd.read_excel("2020_인구조사.xlsx", engine="openpyxl")
 
     # In[303]:
 
