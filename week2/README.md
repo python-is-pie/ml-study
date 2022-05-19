@@ -31,3 +31,11 @@ _ex)_ `titanic_ljw.ipynb`
 문제 링크: [https://www.kaggle.com/competitions/titanic/overview](https://www.kaggle.com/competitions/titanic/overview)
 
 ## 3. 배운 내용
+
+1. 엑셀파일로부터 데이터 불러오기
+2. 데이터프레임으로부터 필요한 정보를 추출
+3. 데이터를 원하는 그래프로 시각화
+4. 결측치를 포함한 샘플들의 연관성 찾기
+5. 범주 데이터를 원핫인코딩하기
+6. 적절한 머신러닝 모델을 사용하기
+7. 학습한 모델의 성능을 테스트하기
